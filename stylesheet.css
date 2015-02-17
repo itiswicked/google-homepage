@@ -1,0 +1,53 @@
+*{border: 1px dashed blue;}
+
+.header {
+	height: 60px; width: 100%;
+  display: inline-block;
+}
+
+#h_icons {
+	position: relative;
+	height: 60px; width: 119px;
+	display: inline-block;
+}
+
+#profile_pic {
+	position: relative;
+	height: 32px; width:32px;
+	border-radius: 50%;
+	background-image: url("profile_pic.png");
+	display: inline-block;
+	border: none; /* ---REMOVE LATER!!!!--- */
+
+}
+
+.main_logo {
+  height: 251px; width: 100%; 
+}
+
+#logo{
+	position: relative;
+	display: block;
+	margin: 0 auto; bottom: -150px;
+	height: 95px; width: 269px;
+}
+
+
+.search_bar {
+  height: 30px; width: 100%;
+  display: block;
+}
+
+.buttons {
+	height: 60px; width: 100%;
+	display: block;
+}
+
+.footer {
+  position: absolute; bottom: 0;
+	height: 40px; width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	display: inline-block;
+}
+
